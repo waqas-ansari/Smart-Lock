@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Lock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="register_title">Register</string>
+    <string name="login_title">Login</string>
+    <string name="name">Username</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="btnRegister">Register</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_making_guest">MakingGuest</string>
+    <string name="title_activity_key_dialog">KeyDialog</string>
+    <string name="title_activity_available_keys">AvailableKeys</string>
+    <string name="title_activity_available_key_dialog">AvailableKeyDialog</string>
+</resources>

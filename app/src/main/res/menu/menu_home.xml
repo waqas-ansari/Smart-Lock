@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fyp.waqasansari.smartlock.Home">
+
+    <item android:id="@+id/action_sendkey" android:title="Make Guest"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_signout" android:title="Signout"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_available_keys" android:title="Available Keys"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_start_service" android:title="Start Service"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

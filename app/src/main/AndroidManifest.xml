@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyp.waqasansari.smartlock" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".MakingGuest"
+            android:label="@string/title_activity_making_guest" >
+        </activity>
+        <activity
+            android:name=".KeyDialog"
+            android:label="@string/title_activity_key_dialog" >
+        </activity>
+
+        <service android:name=".KeyNotificationService" />
+
+        <activity
+            android:name=".AvailableKeys"
+            android:label="@string/title_activity_available_keys" >
+        </activity>
+        <activity
+            android:name=".AvailableKeyDialog"
+            android:label="@string/title_activity_available_key_dialog" >
+        </activity>
+    </application>
+
+</manifest>
